@@ -15,6 +15,10 @@ module.exports = {
         source: '/blog/:path*',
         destination: `${BLOG_URL}/blog/:path*`,
       },
+      {
+        source: '/about',
+        destination: 'http://www.biosci.global',
+      }
     ]
   },
 }
